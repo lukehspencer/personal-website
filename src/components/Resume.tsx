@@ -119,7 +119,7 @@ export function Resume() {
           className="mt-16 text-center"
         >
           <motion.a
-            href="/resume.pdf"
+            href="/luke_spencer_resume.docx.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 text-sm font-medium text-white shadow-md hover:shadow-lg transition-shadow"

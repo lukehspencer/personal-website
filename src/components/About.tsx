@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const skills = [
@@ -43,9 +44,13 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="flex justify-center"
           >
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl bg-card border border-border flex items-center justify-center text-muted text-sm">
-              Your Photo Here
-            </div>
+            <Image
+              src="/IMG_6885.JPG"
+              alt="Luke Spencer"
+              width={320}
+              height={480}
+              className="w-64 md:w-80 rounded-2xl border border-border"
+            />
           </motion.div>
 
           {/* Bio + skills */}
