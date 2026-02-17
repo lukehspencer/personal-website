@@ -4,38 +4,34 @@ import { motion } from "framer-motion";
 
 const experience = [
   {
-    role: "Senior Data Scientist",
-    company: "Company Name",
-    period: "2023 — Present",
+    role: "Data Science Researcher",
+    company: "UC Berkeley, Rausser College of Natural Resources",
+    period: "Sep. 2025 — Present",
     description:
-      "Lead ML initiatives driving product recommendations and churn prediction. Collaborate with engineering to deploy models at scale.",
+      "Building data pipelines in Python and R to analyze 5M+ rows of Colombian migration data, uncovering patterns between climate events and population movement.",
   },
   {
-    role: "Data Analyst",
-    company: "Company Name",
-    period: "2021 — 2023",
+    role: "Coding Instructor",
+    company: "iCode School",
+    period: "Apr. 2025 — Aug. 2025",
     description:
-      "Built dashboards and automated reporting pipelines. Delivered data-driven insights that informed strategic decisions across the organization.",
+      "Led hands-on programming classes for young learners and grew program enrollment by 15% through STEM workshops and community outreach.",
   },
   {
-    role: "Software Engineer",
-    company: "Company Name",
-    period: "2019 — 2021",
+    role: "Data Science Researcher",
+    company: "UC Santa Barbara, Bren School of Environmental Science & Management",
+    period: "Jun. 2024 — Jul. 2024",
     description:
-      "Developed full-stack web applications and internal tools. Optimized data pipelines and contributed to API design and architecture.",
+      "Modeled long-term coral reef ecosystem dynamics in R and co-authored a research paper on how parrotfish grazing influences algae and coral populations.",
   },
 ];
 
 const education = [
   {
-    degree: "M.S. in Data Science",
-    school: "University Name",
-    period: "2019",
-  },
-  {
-    degree: "B.S. in Computer Science",
-    school: "University Name",
-    period: "2017",
+    degree: "B.A. in Applied Mathematics & Data Science",
+    school: "University of California, Berkeley",
+    period: "",
+    details: "GPA: 3.87",
   },
 ];
 
@@ -105,6 +101,9 @@ export function Resume() {
                 <p className="text-xs text-muted">{item.period}</p>
                 <h4 className="mt-1 text-lg font-semibold">{item.degree}</h4>
                 <p className="text-sm text-accent">{item.school}</p>
+                {"details" in item && item.details && (
+                  <p className="mt-1 text-sm text-muted">{item.details}</p>
+                )}
               </div>
             ))}
           </div>

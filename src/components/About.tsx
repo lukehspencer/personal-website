@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 
 const skills = [
   "Python",
-  "Machine Learning",
   "SQL",
+  "R",
+  "TypeScript",
   "TensorFlow",
-  "React",
-  "Data Visualization",
+  "Scikit-Learn",
+  "Pandas",
+  "Next.js",
 ];
 
 const fadeUp = {
@@ -55,12 +57,27 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-muted leading-relaxed">
-              I&rsquo;m a Data Scientist and AI/ML Engineer with a passion for
-              turning complex data into actionable insights. With experience
-              spanning data analysis, machine learning, and full-stack
-              development, I build end-to-end solutions that bridge the gap
-              between raw data and real-world impact. I love working at the
-              intersection of statistics, engineering, and design.
+              I&rsquo;m Luke Spencer, a student at UC Berkeley studying Applied
+              Mathematics and Data Science. I&rsquo;m passionate about transforming
+              complex data into actionable insights through machine learning,
+              statistical modeling, and scalable data pipelines.
+            </p>
+            <p className="mt-4 text-muted leading-relaxed">
+              Currently, I&rsquo;m a Data Science Researcher at UC Berkeley
+              processing millions of rows of migration data to analyze
+              climate-migration patterns. I&rsquo;ve built predictive models
+              achieving 98% accuracy on image classification, developed
+              full-stack AI platforms analyzing 13K+ tools, and created an NBA
+              MVP predictor with 75.5% precision. My work spans Python, R, SQL,
+              TensorFlow, and modern web frameworks like Next.js.
+            </p>
+            <p className="mt-4 text-muted leading-relaxed">
+              When I&rsquo;m not analyzing datasets or building models,
+              you&rsquo;ll find me watching soccer (Manchester United) and
+              football (Las Vegas Raiders), hiking, or building LEGOs. I&rsquo;m
+              actively seeking data analyst, data scientist, and product roles
+              where I can apply my technical skills and research experience to
+              drive real-world impact.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
