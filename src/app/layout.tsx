@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Luke Spencer | Data Scientist & AI/ML Engineer",
+  title: "Luke Spencer | Data Science Researcher",
   description:
-    "Personal portfolio of Luke Spencer — Data Scientist, Data Analyst, AI/ML Engineer, and Software Engineer.",
+    "Personal portfolio of Luke Spencer — Data Science Researcher and Applied Mathematics & Data Science student at UC Berkeley.",
 };
 
 export default function RootLayout({
