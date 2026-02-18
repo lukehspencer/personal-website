@@ -9,13 +9,13 @@ export function Hero() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="text-center max-w-3xl"
+        className="flex flex-col items-center text-center"
       >
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
           Luke Spencer
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-muted max-w-xl mx-auto">
-          Data Scientist &amp; AI/ML Engineer
+        <p className="mt-4 text-lg md:text-xl text-muted whitespace-nowrap">
+          2&times; Data Science Researcher &middot; Applied Math &amp; Data Science @ Berkeley
         </p>
         <div className="mt-6 flex items-center justify-center gap-5">
           <a
